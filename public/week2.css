@@ -1,0 +1,30 @@
+body {
+    background-color: aquamarine;
+    color: blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hargafinal {
+    font-weight: bold;
+    color: brown;
+}
+
+a:link {
+    text-decoration: none;
+    color: green; 
+}
+a:visited {
+    text-decoration: none;
+    color: green;
+}
+a:hover {
+    text-decoration: none;
+    color: yellow;
+    font-weight: bold;
+
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+}

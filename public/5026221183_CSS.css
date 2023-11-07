@@ -1,0 +1,248 @@
+body {
+    background-color:white;
+    color: white;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #FFB333;
+}
+
+h1 {
+    font-size: 75px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    line-height: 100%;
+}
+
+p {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.logo {
+    cursor: auto;
+    width: 150px;
+    margin-right: auto;
+    margin-left: 30px;
+}
+
+.heading {
+    padding: 130px 200px;
+    background-color: #FFB333;
+}
+
+.layerSeparator {
+    background-color: #FFB333;
+    margin: 50px;
+    border-radius: 10px;
+}
+
+.borderContent {
+    margin: 60px;
+}
+
+.towerPhoto {
+    width: 700px;
+    border-radius: 5px;
+}
+
+.marginkanan {
+    margin-right: 30px;
+}
+
+.judulStyle {
+    background-color: #fac061;
+    padding: 5px;
+    text-align: center;
+    width: 300px;
+    border-radius: 20px;
+    font-size: 30px;
+}
+
+.visiMisiCenter{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.judulExplanation {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.programBeginning {
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.program {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.programSentence {
+    color:#FFB333;
+    margin: 0px 0px 0px 0px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    font-size: 22px;
+}
+
+.programCenter {
+    padding: 5px 20px;
+    background-color: #FFB333;
+    color: white;
+    border-radius: 10px;
+}
+
+.programStyle {
+    width: 500px;
+    margin: 0px 60px;
+}
+
+.programQuestion {
+    text-align: center;
+    padding: 5px 30px;
+}
+
+.programSubmit {
+    border: none;
+    color: #FFB333;
+    background-color: white;
+    text-align: center;
+}
+
+.promoTitle {
+    font-size: 27px;
+}
+
+.offerPhoto {
+    width: 300px;
+    margin: 0px 40px;
+}
+
+.promoType {
+    font-size: 20px;
+}
+
+.promoMargin {
+    margin: 0px 150px;
+}
+
+.promoSentence {
+    color: #FFB333;
+    font-size: 15px;
+}
+
+.promoSentenceMargin {
+    margin-top: 70px;
+}
+
+.promoPoster {
+    width: 250px;
+    padding: 10px;
+}
+
+.animasiPenghargaan {
+    width: 550px;
+    margin: 30px 0px;
+}
+
+.baselineContent {
+    display: flex;
+    justify-content:baseline;
+    align-items: center;
+}
+
+.endContent {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.penghargaanJudul {
+    color: #FFB333;
+    margin-left: 250px;
+    font-size: 40px;
+
+}
+
+.penghargaanSpacing {
+    margin: 30px;
+}
+
+.penghargaanPhoto {
+    width: 200px;
+}
+
+.penghargaanSentence {
+    background-color: #FFB333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.formValid {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width:500px;
+}
+
+.centerContent {
+    display: flex;
+    justify-content: center;
+}
+
+.submitStyle {
+    margin-top: 15px;
+    padding: 5px 15px;
+    background-color: green;
+    border: white;
+    color: white;
+    border-radius: 5px;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    margin: 15px 2px 0px 2px;
+}
+
+.nav_links li a {
+    transition: 0.3s ease 0s;
+    color:  #213E7B;
+    padding: 10px;
+}
+
+.nav_links li a:hover {
+    text-decoration: none;
+    background-color: #FFC000;
+}
+
+.service {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.section .div .div {
+    margin: 100px 0px;
+}
