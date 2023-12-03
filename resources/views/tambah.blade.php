@@ -1,28 +1,41 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Tutorial Membuat CRUD Pada Laravel - www.malasngoding.com</title>
-</head>
-<body>
+@extends('master')
+@section('title', 'Tambah Data Pegawai')
 
-	<h2><a href="https://www.malasngoding.com">www.malasngoding.com</a></h2>
-	<h3>Data Pegawai</h3>
+@section('konten')
 
-	<a href="/pegawai"> Kembali</a>
+    <a href="/pegawai" class="btn btn-link"> Kembali</a>
+	<h3 class="mb-4 mt-3">Data Pegawai</h3>
 
-	<br/>
-	<br/>
-
-	<form action="/pegawai/store" method="post">
+	<form action="/pegawai/store" method="post" class="form-horizontal">
 		{{ csrf_field() }}
-		Nama <input type="text" name="nama"> <br/>
-		Jabatan <input type="text" name="jabatan"> <br/>
-		Umur <input type="number" name="umur"> <br/>
-		Alamat <textarea name="alamat"></textarea> <br/>
-		<input type="submit" value="Simpan Data">
+        <div class="form-group row">
+            <label for="nama" class="col-xs-3 col-form-label mr-3 ml-3">Nama</label>
+            <div class="col-xs-9 ml-1">
+            <input type="text" class="form-control" id="nama" name="nama"> <!--name untuk server-->
+            </div>
+        </div>
+
+		<div class="form-group row">
+            <label for="jabatan" class="col-xs-3 col-form-label mr-2 ml-3">Jabatan</label>
+            <div class="col-xs-9">
+            <input type="text" class="form-control" id="jabatan" name="jabatan"> <!--name untuk server-->
+            </div>
+        </div>
+
+		<div class="form-group row">
+            <label for="umur" class="col-xs-3 col-form-label mr-4 ml-3">Umur</label>
+            <div class="col-xs-9">
+            <input type="text" class="form-control" id="umur" name="umur"> <!--name untuk server-->
+            </div>
+        </div>
+
+		<div class="form-group row">
+            <label for="alamat" class="col-xs-3 col-form-label mr-2 ml-3 mb-1">Alamat</label>
+            <div class="col-xs-9 ml-1">
+            <input type="text" class="form-control" id="alamat" name="alamat"> <!--name untuk server-->
+            </div>
+        </div>
+
+        <input type="submit" class="btn btn-primary" value="Simpan Data">
 	</form>
-
-
-
-</body>
-</html>
+@endsection

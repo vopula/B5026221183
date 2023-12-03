@@ -68,6 +68,16 @@ class PegawaiController extends Controller
 		return redirect('/pegawai');
 	}
 
+    // view data pegawai
+    public function view($id)
+    {
+        //mengambil data pegawai dari database pegawai
+        $pegawai = DB::table('pegawai')->where('pegawai_id', $id)->get();
+
+        //mengalihkan tampilan ke view dari pegawai
+        return view('view', ['pegawai' => $pegawai]);
+    }
+
 	// method untuk hapus data pegawai
 	public function hapus($id)
 	{

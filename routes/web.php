@@ -115,7 +115,7 @@ Route::post('/pegawai/store','App\Http\Controllers\PegawaiController@store');
 Route::get('/pegawai/edit/{id}','App\Http\Controllers\PegawaiController@edit');
 Route::post('/pegawai/update','App\Http\Controllers\PegawaiController@update');
 Route::get('/pegawai/hapus/{id}','App\Http\Controllers\PegawaiController@hapus');
-
+Route::get('/pegawai/view/{id}', 'App\Http\Controllers\PegawaiController@view');
 Route::get('/pegawai/cari','App\Http\Controllers\PegawaiController@cari');
 
 //Minggu 13: pembuatan request pada data, passing (biodata - new, formulir, dosencontroller), buat database bernama pegawai, memasukkan data ke database, menghubungkan database dengan php dengan env, baca level 9-12
