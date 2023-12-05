@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\DosenController;
+use App\Http\Controllers\nilaiKuliahController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -118,7 +119,10 @@ Route::get('/pegawai/hapus/{id}','App\Http\Controllers\PegawaiController@hapus')
 Route::get('/pegawai/view/{id}', 'App\Http\Controllers\PegawaiController@view');
 Route::get('/pegawai/cari','App\Http\Controllers\PegawaiController@cari');
 
+//Nilai Kuliah route
+Route::get('nilaikuliah','App\Http\Controllers\NilaiKuliahController@index');
+Route::get('/nilaikuliah/tambah', 'App\Http\Controllers\NilaiKuliahController@tambah');
+Route::post('/nilaikuliah/store','App\Http\Controllers\NilaiKuliahController@store');
+
 //Minggu 13: pembuatan request pada data, passing (biodata - new, formulir, dosencontroller), buat database bernama pegawai, memasukkan data ke database, menghubungkan database dengan php dengan env, baca level 9-12
-
-
 //Minggu 14: Controller, Routes dari web.php, dan tampilan
