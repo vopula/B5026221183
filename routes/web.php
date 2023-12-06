@@ -124,5 +124,11 @@ Route::get('nilaikuliah','App\Http\Controllers\NilaiKuliahController@index');
 Route::get('/nilaikuliah/tambah', 'App\Http\Controllers\NilaiKuliahController@tambah');
 Route::post('/nilaikuliah/store','App\Http\Controllers\NilaiKuliahController@store');
 
+//Route Keranjang Belanja
+Route::get('keranjangbelanja', 'App\Http\Controllers\KeranjangBelanja@index');
+Route::get('keranjangbelanja/beli', 'App\Http\Controllers\KeranjangBelanja@beli');
+Route::post('keranjangbelanja/store','App\Http\Controllers\KeranjangBelanja@store');
+Route::get('keranjangbelanja/batal/{id}', 'App\Http\Controllers\KeranjangBelanja@batal');
+
 //Minggu 13: pembuatan request pada data, passing (biodata - new, formulir, dosencontroller), buat database bernama pegawai, memasukkan data ke database, menghubungkan database dengan php dengan env, baca level 9-12
 //Minggu 14: Controller, Routes dari web.php, dan tampilan
