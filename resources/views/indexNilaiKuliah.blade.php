@@ -3,7 +3,7 @@
 
 @section('konten')
 	<h3>Data Nilai Kuliah Mahasiswa</h3>
-    <a href="/nilaikuliah/tambah" class="btn btn-primary">+ Tambah Data</a>
+    <a href="/nilaikuliah/tambah" class="btn btn-primary text-primary">+ Tambah Data</a>
 
 	<table class="table table-striped table-hover">
 		<tr>

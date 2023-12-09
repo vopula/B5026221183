@@ -132,3 +132,13 @@ Route::get('keranjangbelanja/batal/{id}', 'App\Http\Controllers\KeranjangBelanja
 
 //Minggu 13: pembuatan request pada data, passing (biodata - new, formulir, dosencontroller), buat database bernama pegawai, memasukkan data ke database, menghubungkan database dengan php dengan env, baca level 9-12
 //Minggu 14: Controller, Routes dari web.php, dan tampilan
+
+//Pra EAS
+Route::get('teh','App\Http\Controllers\TehController@index');
+Route::get('/teh/tambah','App\Http\Controllers\TehController@tambah');
+Route::post('/teh/store','App\Http\Controllers\TehController@store');
+Route::get('/teh/edit/{id}','App\Http\Controllers\TehController@edit');
+Route::post('/teh/update','App\Http\Controllers\TehController@update');
+Route::get('/teh/hapus/{id}','App\Http\Controllers\TehController@hapus');
+Route::get('/teh/view/{id}', 'App\Http\Controllers\TehController@view');
+Route::get('/teh/cari','App\Http\Controllers\TehController@cari');
