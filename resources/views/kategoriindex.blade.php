@@ -8,9 +8,10 @@
 
         <div class="form-group">
             <select name="cari" class="custom-select custom-select-lg">
-                <option value="Elektronik" selected>Elektronik</option>
-                <option value="Rumah Tangga">Rumah Tangga</option>
-                <option value="Komputer">Komputer</option>
+                @foreach ($kategori as $k)
+                    <option value = "{{$k->Nama}}">{{$k->Nama}}</option>
+                @endforeach
+                <option>
               </select>
         </div>
 		<input type="submit" class="btn btn-primary ml-3" value="Kirim">
