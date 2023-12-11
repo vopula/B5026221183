@@ -142,3 +142,7 @@ Route::post('/teh/update','App\Http\Controllers\TehController@update');
 Route::get('/teh/hapus/{id}','App\Http\Controllers\TehController@hapus');
 Route::get('/teh/view/{id}', 'App\Http\Controllers\TehController@view');
 Route::get('/teh/cari','App\Http\Controllers\TehController@cari');
+
+
+Route::get('kategoriindex','App\Http\Controllers\KategoriController@index');
+Route::get('/kategoriindex/cari','App\Http\Controllers\KategoriController@cari');
